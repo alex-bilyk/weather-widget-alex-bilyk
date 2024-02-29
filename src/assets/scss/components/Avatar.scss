@@ -1,0 +1,15 @@
+.Avatar {
+  display: flex;
+  align-items: center;
+
+  &__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  &__text {
+    margin-left: 6px;
+    font-weight: 500;
+  }
+}

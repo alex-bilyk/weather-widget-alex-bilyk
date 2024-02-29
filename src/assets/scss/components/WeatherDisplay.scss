@@ -1,0 +1,33 @@
+.WeatherDisplay {
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  &__title {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  &__list {
+    margin-top: 40px;
+
+    &__item {
+      margin-top: 25px;
+      
+      &__date {
+        font-size: 18px;
+        font-weight: 700;
+      }
+      
+      &__value {
+        margin-top: 5px;
+        font-size: 16px;
+      }
+    }
+  }
+}
